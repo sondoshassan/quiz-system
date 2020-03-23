@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/teach.css">
+</head>
+<body>
+    <header>
+        <h1>Teacher Page</h1>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="student.html">Student Page</a></li>
+        </nav>
+    </header>
+    <main>
+        <div id="contain">
+        <form id="form" name="form-q">
+            <label for="name std">Students Name</label>
+            <textarea name="students" id="std" cols="30" rows="10" placeholder="sperate by ,"></textarea>
+            <label for="question">Question</label>
+            <input type="text" id="qus">
+            <label for="answer">Answer</label>
+            <input type="text" id="ans">
+            <button>
+                SUBMIT
+            </button>
+        </form>
+        <button id="reset">
+            Reset Student Name
+        </button>
+    </div>
+    <div id="preview">
+    </div>
+    <div id="remove"></div>
+    </main>
+    
+    <script src="js/teach.js"></script>
+</body>
+</html>
