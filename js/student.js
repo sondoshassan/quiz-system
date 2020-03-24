@@ -62,7 +62,7 @@ function whenChoose() {
 
   console.log(ansArr.length);
   if (ansArr.length === objArr.length) {
-    alert(`Score: ${score}`);
+    alert(`Score: ${score} from ${objArr.length}`);
   } else {
     alert('please answer all Questions');
   }
